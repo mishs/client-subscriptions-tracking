@@ -8,20 +8,16 @@ function DevicesHeader(props) {
   return (
     <div className='devices-header'>
       <div className='title'>
-        <FontAwesomeIcon icon={faHome} />
-        <h3>Device Overview</h3>
-      </div>
-      <div className='search_container'>
         <Button className='mr-4 position-sticky sticky-top'>
           <FontAwesomeIcon icon={faFilter} onClick={props.handleClick} />
         </Button>
-        <Search />
+      </div>
+      <div className='search_container'>
+
+        <h2> <FontAwesomeIcon icon={faHome} /> Device Overview</h2>
       </div>
 
-      <Button>
-        <FontAwesomeIcon icon={faPlus} />
-        Add
-      </Button>
+      <Search />
     </div>
   );
 }

@@ -65,7 +65,7 @@ function SubscriptionGroup({
         }}
       >
         {title} &nbsp;&nbsp;
-        <span><span>{licencesCount}</span>/{licencesCount + 5}</span>
+        (<span><span>{licencesCount}</span>/{licencesCount + 5}</span>)
       </h2>
 
       <Accordion defaultActiveKey="0">
@@ -109,7 +109,7 @@ function SubscriptionGroup({
                               }}
                             >
                               <th>
-                                <Highlight search={searchQuery}>{item.group} <span>{filteredData.length}</span></Highlight>
+                                <Highlight search={searchQuery}>{item.group} (<span>{filteredData.length}</span>)</Highlight>
                               </th>
                               <th><Highlight search={searchQuery}>{item.model}</Highlight></th>
                               <th><Highlight search={searchQuery}>{sorted.length > 1 ? (sorted[0] + "-" + sorted[sorted.length - 1]) : sorted[0]}</Highlight></th>
