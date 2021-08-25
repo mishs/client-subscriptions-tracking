@@ -120,7 +120,7 @@ function SubscriptionGroup({
                       </Accordion.Toggle>
 
                       <Accordion.Collapse eventKey={index.toString()}>
-                        <Card.Body>
+                        <Card.Body className="ml-3">
                           <Licenses
                             keyToFind={index}
                             item={item}
