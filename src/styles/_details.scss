@@ -1,0 +1,10 @@
+.details_block{
+    &>div{
+        position: sticky;
+        top: 50px;
+
+        @media (max-width: 674px){
+            position: static;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.cur-pointer{
+    cursor: pointer;
+}
+
+.highlight-box{
+    background: #a1ceff!important;
+}
+
+.create-popup{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1030;
+
+    &>div{
+        background: #fff;
+        min-width: 674px;
+        min-height: 400px;
+        padding: 10px 20px;
+
+        @media (max-width: 674px) {
+            width: 100%;
+            min-width: auto;
+            min-height: auto;
+        }
+    }
+}
+
+@import './licenses';
+@import './filters';
+@import './right-header';
+@import './devices-header';
+@import './search-input';
+@import './subs-group';
+@import './details';
