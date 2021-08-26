@@ -17,6 +17,7 @@ Keep track of client's online/digital product details in one place with capabili
 > <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>  
 
 > <img alt="SCSS" src="https://img.shields.io/badge/SASS%20-hotpink.svg?&style=for-the-badge&logo=SASS&logoColor=white"/>
+>  <img alt="SCSS" src="https://img.shields.io/badge/react-bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/> 
 
 ## Available Scripts
 
