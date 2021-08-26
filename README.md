@@ -22,7 +22,7 @@ Keep track of client's online/digital product details in one place with capabili
 ## Available Scripts
 
 Deployed version (url).\
-> [https://mish-demo-project.netlify.app](https://mish-demo-project.netlify.app)
+> [https://mish-demoproject.netlify.app](https://mish-demoproject.netlify.app)
 
 Git clone:
 > ```https://github.com/mishs/demo-project.git```
