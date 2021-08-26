@@ -21,7 +21,7 @@ Keep track of client's online/digital product details in one place with capabili
 
 ## Available Scripts
 
-Deployed version (url).\
+Deployed version (url) (To open in new tab: right click on link and 'Open Link in New Tab')
 > [https://mish-demoproject.netlify.app](https://mish-demoproject.netlify.app)
 
 Git clone:
