@@ -21,12 +21,19 @@ Keep track of client's online/digital product details in one place with capabili
 
 ## Available Scripts
 
-Git clone.
-> ```https://github.com/mishs/demo-project.git```
-
 Deployed version (url):
 > ```https://mish-demo-project.netlify.app```
 
+Git clone.
+> ```https://github.com/mishs/demo-project.git```
+
+> cd in the project:
+
+### `cd demo-project`
+
+To install node_modules:
+
+### `npm install / yarn`
 
 In the project directory, you can run:
 
